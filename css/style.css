@@ -25,7 +25,6 @@
 main {
     margin-top: 15px;
     padding-bottom: 15px;
-    background-color: #1E90FF;
 }
 
 main::after {
@@ -34,38 +33,34 @@ main::after {
     clear: both;
 }
 
-.top-container {
+/* .top-container {
     height: 80px;
     margin-bottom: 15px;
-    background-color: #ADD8E6;
-}
+    
+} */
 
-.aside-left {
+/* .aside-left {
     width: 19%;
     height: 400px;
-    background-color: #ADD8E6;
     float: left;
-}
+} */
 
 .mid-container {
     width: calc(60% - 20px);
-    height: 400px;
+    height: 500px;
     margin: 0 20px;
     float: left;
-    background-color: #ADD8E6;
 }
 
 .aside-right {
     width: 19%;
-    height: 400px;
-    background-color: #ADD8E6;
+    height: 500px;
     float: left;
 }
 
 footer {
     height: 50px;
     margin-top: 7px;
-    background-color:#8A2BE2 ;
 }
 /* /debug */
 
@@ -73,7 +68,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* header */
+/* Header */
 #logo {
     width: 140px;
     height: 60px;
@@ -99,8 +94,6 @@ body {
     background-image: url("../img/banner-1.jpg");
     background-repeat: no-repeat;
     background-size: 1050px 460px;
-    background-color: #BC8F8F;
-    border-radius: 1%;
 }
 
 .text-banner {
@@ -112,7 +105,84 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
 }
-    
+/* /Header */
+
+/* Main */
+.top-container {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.top-container > p {
+    color: grey;
+}
+
+.aside-left {
+    width: 19%;
+    height: 500px;
+    float: left;
+}
+
+.aside-left > div {
+    width: 100%;
+    height: 40%;
+    border-radius: 1%;
+    background-image: url("../img/img-1.jpg");
+    background-size: cover;
+}
+
+.aside-left > p {
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.transparency {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-main {
+    color: grey;
+}
+
+.mid-container > div {
+    width: 100%;
+    height: 40%;
+    background-image: url("../img/banner-2.jpg");
+    background-size: 600px 250px;
+    background-repeat: no-repeat;
+}
+
+.mid-container > p {
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.aside-right > div {
+    width: 100%;
+    height: 40%;
+    background-image: url("../img/img-3.jpg");
+    background-size: cover;
+
+}
+
+.aside-right > p {
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.end-phrase {
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
